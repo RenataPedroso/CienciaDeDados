@@ -9,9 +9,7 @@ ou imprimir "Nenhuma condição foi satisfeita" se x menor ou igual a  3  e y é
 x = 8
 y = 15
 
-if (x > 3):
-  print('Ao menos uma das condições foi satisfeita')
-elif (y%2) == 0:
-  print('Ao menos uma das condições foi satisfeita')
-else:
-  print('Nenhuma condição foi satisfeita')
+if ((x>3) or (y%2 == 0)):
+  print("Ao menos uma das condições foi satisfeita")
+if ((x <= 3) and (y%2 != 0)):
+  print("Nenhuma condição foi satisfeita")
